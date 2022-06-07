@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationn"
+    app:startDestination="@id/skillup">
+
+    <fragment
+        android:id="@+id/skillup"
+        android:name="com.example.dayplanner.Skillup"
+        android:label="fragment_skillup"
+        tools:layout="@layout/fragment_skillup" >
+        <action
+            android:id="@+id/action_skillup_to_learning"
+            app:destination="@id/learning" />
+    </fragment>
+    <fragment
+        android:id="@+id/learning"
+        android:name="com.example.dayplanner.Learning"
+        android:label="fragment_learning"
+        tools:layout="@layout/fragment_learning" >
+        <action
+            android:id="@+id/action_learning_to_skillup"
+            app:destination="@id/skillup" />
+    </fragment>
+</navigation>
