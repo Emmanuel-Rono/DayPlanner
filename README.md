@@ -1,2 +1,2 @@
 # DayPlanner
-Testing, Recyclerviews,Andrid room database,Fragmants and Jetpack navigation.
+Testing, Recyclerviews,Android room database,Fragmants and Jetpack navigation.
