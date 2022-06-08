@@ -6,4 +6,3 @@ class Skillup : Fragment(R.layout.fragment_skillup) {
 
 }
 
-  
