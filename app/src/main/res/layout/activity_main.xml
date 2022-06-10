@@ -11,33 +11,32 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="417dp"
-        android:layout_height="660dp"
+        android:layout_width="390dp"
+        android:layout_height="884dp"
         app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/navigationn"
-        />
+        app:layout_constraintVertical_bias="0.795"
+        app:navGraph="@navigation/navigationn" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/teal_700"
         app:itemIconTint="@color/bottom_nav_item_color"
         app:itemTextColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/teal_700"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.702"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragmentContainerView2"
-        app:layout_constraintVertical_bias="0.606"
-        app:menu="@menu/bottom_nav_menu"
 
 
-        />
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
