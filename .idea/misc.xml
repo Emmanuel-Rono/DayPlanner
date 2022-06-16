@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/DayPlanner/app/src/main/res/drawable/bottom_navigation_colors.xml" value="0.1" />
         <entry key="..\:/DayPlanner/app/src/main/res/drawable/skillup.xml" value="0.216" />
-        <entry key="..\:/DayPlanner/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/DayPlanner/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/DayPlanner/app/src/main/res/layout/activity_splash.xml" value="0.33" />
         <entry key="..\:/DayPlanner/app/src/main/res/layout/fragment_learning.xml" value="0.22447916666666667" />
-        <entry key="..\:/DayPlanner/app/src/main/res/layout/fragment_skillup.xml" value="0.21041666666666667" />
+        <entry key="..\:/DayPlanner/app/src/main/res/layout/fragment_skillup.xml" value="0.25" />
+        <entry key="..\:/DayPlanner/app/src/main/res/layout/row_layout.xml" value="0.33" />
         <entry key="..\:/DayPlanner/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20885416666666667" />
       </map>
     </option>
@@ -17,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
